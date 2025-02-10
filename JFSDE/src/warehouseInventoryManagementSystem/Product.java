@@ -9,7 +9,7 @@ public class Product implements Serializable {
     private String name;
     private int quantity;
     private Location location;
-    private transient final Object lock = new Object(); // Marked as transient
+    private transient final Object lock = new Object(); 
 
     public Product(String productID, String name, int quantity, Location location) {
         this.productID = productID;
@@ -19,7 +19,7 @@ public class Product implements Serializable {
     }
 
     public void updateQuantity(int delta) throws OutOfStockException {
-        synchronized (lock) { // This will now work fine
+        synchronized (lock) { 
             int newQuantity = this.quantity + delta;
             if (newQuantity < 0) {
                 throw new OutOfStockException("Insufficient stock for product: " + productID);
@@ -27,8 +27,6 @@ public class Product implements Serializable {
             this.quantity = newQuantity;
         }
     }
-
-    // Getters and setters
     public String getProductID() { return productID; }
     public void setProductID(String productID) { this.productID = productID; }
     public String getName() { return name; }
