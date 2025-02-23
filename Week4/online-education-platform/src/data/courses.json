@@ -1,0 +1,50 @@
+{
+  "python": {
+    "name": "Python",
+    "description": "Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in web development, data science, artificial intelligence, automation, and more. Python's extensive libraries and frameworks, such as Django for web development and TensorFlow for AI, make it a versatile choice for both beginners and experienced developers. This course, instructed by John Doe, covers fundamental and advanced concepts, equipping learners with the necessary skills to write efficient Python code.",
+    "instructor": "John Doe",
+    "cost": "$100",
+    "duration": "3 months",
+    "enrolled": false
+  },
+  "java": {
+    "name": "Java",
+    "description": "Java is a robust, object-oriented programming language designed for reliability and scalability. It is widely used in enterprise applications, Android development, backend systems, and web applications. Java's 'write once, run anywhere' philosophy ensures platform independence, making it a favorite among developers. Led by Jane Smith, this course delves into Java’s core concepts, including object-oriented programming, data structures, multithreading, and Spring Boot for backend development.",
+    "instructor": "Jane Smith",
+    "cost": "$120",
+    "duration": "4 months",
+    "enrolled": false
+  },
+  "cpp": {
+    "name": "C++",
+    "description": "C++ is a high-performance programming language that offers low-level memory control, making it ideal for game development, competitive programming, and system software like operating systems and embedded systems. With its powerful object-oriented features, C++ is extensively used in applications requiring speed and efficiency. This course, guided by Alice Johnson, covers essential topics such as data structures, memory management, and advanced algorithms.",
+    "instructor": "Alice Johnson",
+    "cost": "$110",
+    "duration": "3.5 months",
+    "enrolled": false
+  },
+  "spring": {
+    "name": "Spring Framework",
+    "description": "Spring is a popular Java framework used for building scalable and enterprise-grade applications. It simplifies backend development with its powerful features, such as dependency injection, aspect-oriented programming, and Spring Boot for rapid application development. This course, instructed by Bob Brown, provides a comprehensive understanding of Spring’s core modules, including Spring MVC, Spring Security, and Spring Data. Ideal for backend developers looking to enhance their expertise.",
+    "instructor": "Bob Brown",
+    "cost": "$130",
+    "duration": "4 months",
+    "enrolled": false
+  },
+  "django": {
+    "name": "Django",
+    "description": "Django is a high-level Python web framework designed for rapid development and clean, pragmatic design. It provides built-in security features and a scalable structure, making it a preferred choice for developers building web applications. This course, led by Charlie Davis, covers Django’s ORM, authentication system, REST framework, and deployment techniques. By the end of the course, learners will be able to build secure and efficient web applications.",
+    "instructor": "Charlie Davis",
+    "cost": "$115",
+    "duration": "3 months",
+    "enrolled": false
+  },
+  "reactjs": {
+    "name": "ReactJS",
+    "description": "ReactJS is a JavaScript library used for building modern, dynamic, and interactive user interfaces. It enables developers to create reusable UI components and ensures fast rendering through its virtual DOM feature. This course, taught by Eve Wilson, explores React’s core concepts, including state management, hooks, React Router, and integration with backend APIs. Students will gain hands-on experience in developing single-page applications and optimizing performance.",
+    "instructor": "Eve Wilson",
+    "cost": "$125",
+    "duration": "3.5 months",
+    "enrolled": false
+  }
+}

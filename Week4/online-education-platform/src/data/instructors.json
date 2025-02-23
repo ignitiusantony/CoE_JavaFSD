@@ -1,0 +1,50 @@
+[
+  {
+    "name": "John Doe",
+    "role": "Python Instructor",
+    "image": "path/to/john_doe_image.jpg",
+    "facebook": "https://facebook.com/johndoe",
+    "twitter": "https://twitter.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe"
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Java Instructor",
+    "image": "path/to/jane_smith_image.jpg",
+    "facebook": "https://facebook.com/janesmith",
+    "twitter": "https://twitter.com/janesmith",
+    "linkedin": "https://linkedin.com/in/janesmith"
+  },
+  {
+    "name": "Alice Johnson",
+    "role": "C++ Instructor",
+    "image": "path/to/alice_johnson_image.jpg",
+    "facebook": "https://facebook.com/alicejohnson",
+    "twitter": "https://twitter.com/alicejohnson",
+    "linkedin": "https://linkedin.com/in/alicejohnson"
+  },
+  {
+    "name": "Bob Brown",
+    "role": "Spring Framework Instructor",
+    "image": "path/to/bob_brown_image.jpg",
+    "facebook": "https://facebook.com/bobbrown",
+    "twitter": "https://twitter.com/bobbrown",
+    "linkedin": "https://linkedin.com/in/bobbrown"
+  },
+  {
+    "name": "Charlie Davis",
+    "role": "Django Instructor",
+    "image": "path/to/charlie_davis_image.jpg",
+    "facebook": "https://facebook.com/charliedavis",
+    "twitter": "https://twitter.com/charliedavis",
+    "linkedin": "https://linkedin.com/in/charliedavis"
+  },
+  {
+    "name": "Eve Wilson",
+    "role": "ReactJS Instructor",
+    "image": "path/to/eve_wilson_image.jpg",
+    "facebook": "https://facebook.com/evewilson",
+    "twitter": "https://twitter.com/evewilson",
+    "linkedin": "https://linkedin.com/in/evewilson"
+  }
+]

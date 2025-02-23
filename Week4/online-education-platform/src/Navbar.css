@@ -1,0 +1,81 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent initially */
+    padding: 0.4rem 0.01; /* Balanced padding */
+    position: fixed;
+    width: 40%; /* Capsule shape */
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-radius: 50px; /* Sleek capsule shape */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.4s ease-in-out, box-shadow 0.3s;
+}
+
+/* Transparent Navbar Effect on Scroll */
+.navbar.scrolled {
+    background-color: rgba(51, 51, 51, 0.6); /* Becomes more transparent */
+    box-shadow: none; /* Removes shadow when scrolled */
+}
+
+/* Logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbar-brand img {
+    height: 28px; /* Slightly increased size */
+    width: auto;
+    margin-right: 8px;
+    margin-left: -50px; /* Move the logo left but not too much */
+}
+
+/* Navbar Links */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 0.8rem; /* Slightly increased spacing */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Hover Effect */
+.nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    transform: scale(1.05); /* Subtle scale effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        width: 80%; /* Expand width on smaller screens */
+    }
+
+    .navbar-brand img {
+        height: 22px; /* Smaller logo */
+        margin-left: -20px;
+    }
+
+    .nav-item a {
+        font-size: 0.9rem;
+        padding: 5px 8px;
+    }
+}
